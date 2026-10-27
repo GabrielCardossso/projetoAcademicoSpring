@@ -49,9 +49,6 @@ export function LoginPage() {
     <div className="pagina-login">
       <form className="caixa-login" onSubmit={enviar}>
         <h1>Login</h1>
-        <p className="info">
-          Autenticação pelo Spring Security em <code>POST /auth/login</code>. Backend: <code>{API_URL}</code>
-        </p>
 
         {aviso && <p className="mensagem erro">{aviso}</p>}
 
