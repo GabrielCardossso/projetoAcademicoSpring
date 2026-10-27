@@ -53,13 +53,13 @@ public class DadosIniciais {
             LocalDate hoje = LocalDate.now();
 
             GestorEquipe gestor = gestorRepository.save(
-                    new GestorEquipe("Jardel", "123.456.789-10", "jardel@gmail.com"));
+                    new GestorEquipe("Gabriel", "123.456.789-10", "gabriel@gmail.com"));
 
             Equipe equipe = new Equipe("Equipe GT");
             equipe.setGestor(gestor);
             equipe = equipeRepository.save(equipe);
 
-            Desenvolvedor dev1 = new Desenvolvedor("Pedro", "789.456.123-09", "pedro@gmail.com");
+            Desenvolvedor dev1 = new Desenvolvedor("Jardel", "789.456.123-09", "jardel@gmail.com");
             dev1.setEquipe(equipe);
             dev1 = devRepository.save(dev1);
 
