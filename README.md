@@ -15,7 +15,7 @@ O código segue as camadas que vimos em aula: o **Controller** só recebe o pedi
 - Nenhum campo importante pode ficar em branco.
 - As datas precisam fazer sentido: nada de prazo no passado, e a atividade tem que caber no período do projeto.
 - Um projeto só é concluído quando tem atividades e todas estão concluídas.
-- Nada é apagado de verdade. O `setStatus` alterna projeto e atividade entre ativo e inativo a cada chamada, e não deixa desativar o que está em andamento.
+- Nada é apagado de verdade. O `setStatus` alterna projeto e atividade entre ativo e inativo a cada chamada, e não deixa desativar o que está em andamento. Foi algo falado e pensado com o professor, uma sugestão de mudança.
 - Um gestor cuida de uma equipe só, e o desenvolvedor só assume o que for da equipe dele.
 
 ## Consulta especial
